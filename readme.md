@@ -65,3 +65,6 @@ origin    git@github.com:%ИМЯ_АККАУНТА%/%ИМЯ-ПРОЕКТА%.git (
 origin    git@github.com:%ИМЯ_АККАУНТА%/%ИМЯ-ПРОЕКТА%.git (push)
 ```
 Если все так, то репозитории связаны. **Отправляй коммит!**
+```
+$ git add --all && git commit -m "Commit description." && git push
+```
