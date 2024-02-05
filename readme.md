@@ -19,15 +19,15 @@ $ ls -a ~/.ssh
 ```
 
 ## Регистрируемся на сайте GitHub
-1. Переходим на страницу регистрации [GitHub] (https://github.com/signup)
+1. Переходим на страницу регистрации [GitHub](https://github.com/signup)
 2. Заполняем все поля и подтверждаем регистрацию.
-3. Переходим на страницу профиля в список репозиториев (Repositories), жмем кнопку [NEW] (https://github.com/new)
+3. Переходим на страницу профиля в список репозиториев (Repositories), жмем кнопку [NEW](https://github.com/new)
 4. Заполняем поле **Repository name**, например, *my-project* (для удобства имя репозитория сделать таким же как имя кашего локального проекта). По желанию можно заполнить поле **Description**.
 5. Жмем кнопку **Create repository**.
 
 ## Добавляем ключ SSH
-1. Переходим в настройки аккаунта в подраздел [SSH and GPG keys] (https://github.com/settings/keys)
-2. Жмем кнопку [New SSH Key] (https://github.com/settings/ssh/new)
+1. Переходим в настройки аккаунта в подраздел [SSH and GPG keys](https://github.com/settings/keys)
+2. Жмем кнопку [New SSH Key](https://github.com/settings/ssh/new)
 3. Заполняем название, например, *Personal key*.
 4. **Key type** - *Authentication Key*.
 5. В поле *Key* вставляем сгенерированный ключ. Для этого в своей консоли копируем публичный ключ командой:
@@ -41,7 +41,7 @@ $ clip < ~/.ssh/id_ed25519.pub
 ```
 $ ssh -T git@github.com
 ```
-8. Если вы впервые используете Git, то увидите сообщение о проверке ключа. Для проверке переходим по [ссылке] (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints) и сравниваем ключ SHA256 с ключом, показанным в консоли. Если совпадает то подтверждаем:
+8. Если вы впервые используете Git, то увидите сообщение о проверке ключа. Для проверке переходим по [ссылке](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints) и сравниваем ключ SHA256 с ключом, показанным в консоли. Если совпадает то подтверждаем:
 ```
 yes -> Enter
 ```
