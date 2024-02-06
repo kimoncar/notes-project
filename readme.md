@@ -116,5 +116,8 @@ $ git add
 
 ```mermaid
 graph LR
-	A[untracked] -- git add --> B[staged];
+	A[untracked] -- "git add" --> B[staged];
+	B[staged] -- "git commit" --> C[tracked];
+	C[tracked] -- "изменения" --> D[modified];
+	D[modified] -- "git add" --> B[staged];
 ```
