@@ -115,9 +115,10 @@ $ git add
 # Жизненный цикл файлов в Git
 
 ```mermaid
-graph LR
+graph LR;
 	A[untracked] -- "git add" --> B[staged];
 	B[staged] -- "git commit" --> C[tracked];
 	C[tracked] -- "изменения" --> D[modified];
 	D[modified] -- "git add" --> B[staged];
+	B[staged] -- "изменения" --> D[modified];
 ```
